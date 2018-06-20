@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
-  s.source_files = 'GTPrinterFramework/*'
+  s.source_files = "GTPrinterFramework.framework"
   s.resources = 'GTPrinterFramework.framework/SVProgressHUD.bundle'
 
   # s.ios.exclude_files = 'Classes/osx'
