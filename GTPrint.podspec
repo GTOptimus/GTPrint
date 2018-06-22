@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "GTPrint"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A print function  used on iOS."
   s.description      = <<-DESC
                        It is a ptint function library used on iOS, which implement by Objective-C.
@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   # s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
-  #s.source_files = "GTPrint"
-  s.resources = "GTPrinterFramework.framework/SVProgressHUD.bundle"
+  #s.source_files = "GTPrint/GTPrintFramework/*"
+  s.resources = "GTPrint/GTPrintFramework/SVProgressHUD.bundle"
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.vendored_frameworks ="QRPrinter.framework","GTPrinterFramework.framework"
+  s.vendored_frameworks ="GTPrint/GTPrintFramework/QRPrinter.framework","GTPrint/GTPrintFramework/GTPrint.framework"
   s.frameworks = 'Foundation','QuartzCore','UIKit'
 end

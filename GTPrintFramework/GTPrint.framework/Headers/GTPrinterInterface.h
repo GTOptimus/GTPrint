@@ -9,12 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface GTPrinterInterface : NSObject
-//! Project version number for GTPrinterFramework.
-FOUNDATION_EXPORT double GTPrinterFrameworkVersionNumber;
+//! Project version number for GTPrint.
+FOUNDATION_EXPORT double GTPrintVersionNumber;
 
-//! Project version string for GTPrinterFramework.
-FOUNDATION_EXPORT const unsigned char GTPrinterFrameworkVersionString[];
+//! Project version string for GTPrint.
+FOUNDATION_EXPORT const unsigned char GTPrintVersionString[];
+
+
+@interface GTPrinterInterface : NSObject
 
 
 /**
