@@ -25,7 +25,8 @@
 
   - 具体使用：
 
-    在需要使用打印的类文件中，导入header
+    - 设置项目 Enable Bitcode = No；
+    - 在需要使用打印的类文件中，导入header
 
     ```objective-c
     #import <GTPrint/GTDataFormatter.h>
