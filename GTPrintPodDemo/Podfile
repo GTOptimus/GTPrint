@@ -1,0 +1,12 @@
+platform:ios ,'8.0'
+
+target "GTPrintPodDemo" do
+
+#use_frameworks!
+inhibit_all_warnings!
+
+#use_frameworks!
+
+pod 'GTPrint'
+
+end

@@ -1,8 +1,8 @@
 //
 //  main.m
-//  GTPrintFrameworkDemo
+//  GTPrintPodDemo
 //
-//  Created by erics on 2018/6/21.
+//  Created by erics on 2018/6/22.
 //  Copyright © 2018年 EricsYinGroup. All rights reserved.
 //
 

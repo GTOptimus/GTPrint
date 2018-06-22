@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
   #s.source_files = "GTPrint/GTPrintFramework/*"
-  s.resources = "GTPrint/GTPrintFramework/SVProgressHUD.bundle"
+  s.resources = "GTPrintFramework/SVProgressHUD.bundle"
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
-  s.vendored_frameworks ="GTPrint/GTPrintFramework/QRPrinter.framework","GTPrint/GTPrintFramework/GTPrint.framework"
+  s.vendored_frameworks ="GTPrintFramework/QRPrinter.framework","GTPrintFramework/GTPrint.framework"
   s.frameworks = 'Foundation','QuartzCore','UIKit'
 end

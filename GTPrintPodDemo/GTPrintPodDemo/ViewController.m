@@ -1,15 +1,14 @@
 //
 //  ViewController.m
-//  GTPrintFrameworkDemo
+//  GTPrintPodDemo
 //
-//  Created by erics on 2018/6/21.
+//  Created by erics on 2018/6/22.
 //  Copyright © 2018年 EricsYinGroup. All rights reserved.
 //
 
 #import "ViewController.h"
 #import <GTPrint/GTDataFormatter.h>
 #import <GTPrint/GTPrinterInterface.h>
-
 @interface ViewController ()
 
 @end
@@ -46,6 +45,8 @@
     //    @param senderAddressContent 寄件人详细地址(必填字段)
     //    @param remarkContent 快件信息备注
     //    @param shownQRCode 需要额外展示的二维码
+    
+    //为了方便实现传入参数，写了一个链式调用的语法糖，
     NSDictionary * dict =
     gtRegisterId(@"12344")
     .makeDataParameter(@"expressCode",@"578084903")
@@ -67,7 +68,6 @@
     [interface gt_printWithExpressInfomationWithTarget:weakSelf infoDictionary:dict];
     
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

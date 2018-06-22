@@ -1,0 +1,1 @@
+../../../../GTPrint/GTPrintFramework/GTPrint.framework/Headers/GTPrinterInterface.h

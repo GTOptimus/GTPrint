@@ -1,0 +1,1 @@
+../../../../GTPrint/GTPrintFramework/QRPrinter.framework/Headers/QRPrinterInterface.h
